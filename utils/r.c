@@ -6,7 +6,7 @@
 /*   By: rmonfort <rmonfort@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/18 05:48:31 by rmonfort          #+#    #+#             */
-/*   Updated: 2025/04/15 16:40:57 by rmonfort         ###   ########.fr       */
+/*   Updated: 2025/04/25 20:13:26 by rmonfort         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ static void	r(t_node **stack)
 	first = *stack;
 	*stack = first->next;
 	first->next = NULL;
-	ft_lstadd_back(stack, first);
+	ft_lstadd_back2(stack, first);
 }
 
 void	ra(t_node **a)

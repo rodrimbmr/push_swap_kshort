@@ -6,7 +6,7 @@
 /*   By: rmonfort <rmonfort@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/15 12:59:28 by rmonfort          #+#    #+#             */
-/*   Updated: 2025/04/15 13:19:28 by rmonfort         ###   ########.fr       */
+/*   Updated: 2025/04/25 20:16:10 by rmonfort         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,3 +51,10 @@ t_node	*ft_lstlast2(t_node *lst)
 	return (lst);
 }
 
+void	ft_lstadd_front2(t_node **lst, t_node *new)
+{
+	if (new == NULL)
+		return ;
+	new->next = *lst;
+	*lst = new;
+}

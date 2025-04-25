@@ -24,13 +24,13 @@ static void	px(t_stack *stackX, t_stack *stack2)
 	stack2->stack_length--;
 }
 
-void	pa(t_node *stacka, t_node *stackb)
+void	pa(t_stack *stacka, t_stack *stackb)
 {
 	px(stacka, stackb);
 	write(1, "pa\n", 3);
 }
 
-void	pb(t_node *stacka, t_node *stackb)
+void	pb(t_stack *stacka, t_stack *stackb)
 {
 	px(stackb, stacka);
 	write(1, "pb\n", 3);
