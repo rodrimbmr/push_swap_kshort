@@ -6,11 +6,11 @@
 /*   By: rmonfort <rmonfort@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/15 12:59:28 by rmonfort          #+#    #+#             */
-/*   Updated: 2025/04/25 20:16:10 by rmonfort         ###   ########.fr       */
+/*   Updated: 2025/05/01 04:26:34 by rmonfort         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../push_swap.h"
 
 t_node	*ft_lstnew2(int content_que_queremos_copiar)
 {

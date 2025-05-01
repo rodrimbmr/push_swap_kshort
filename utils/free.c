@@ -6,11 +6,11 @@
 /*   By: rmonfort <rmonfort@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/12 21:37:41 by rmonfort          #+#    #+#             */
-/*   Updated: 2025/04/12 21:38:27 by rmonfort         ###   ########.fr       */
+/*   Updated: 2025/05/01 04:26:27 by rmonfort         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../push_swap.h"
 
 void	stack_free(t_stack *stack)
 {

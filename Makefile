@@ -4,7 +4,7 @@ NAME    = push_swap
 
 LIB_DIR = 42_Libft
 LIB_NAME = $(LIB_DIR)/libft.a
-SRC     = $(wildcard *.c) $(wildcard utils/*.c)
+SRC     = $(wildcard *.c) $(wildcard utils/*.c) $(wildcard kshort/*.c)
 #CHECKER_SRC = checker.c checker_aux.c get_next_line.c get_next_line_utils.c \
 sort_utils.c operations.c utils.c swap.c rotate.c reverse_rotate.c \
 lst_indexed_ext.c lst_indexed.c indexes_utils.c cost.c
